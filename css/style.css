@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(162, 162, 182);
+}
+
+.canvas {
+    background-color: rgb(18, 19, 49);
+    border-radius: 5px;
+}
+
+.result {
+    display: inline;
+}
+
+.div span {
+    display: inline-block;
+}
+
+.game {
+    display: none;
+}
+
+.gameover {
+    display: block;
+    color: rgb(25, 189, 3);
+    position: fixed;
+    background-color: rgb(19, 18, 71);
+    margin: 70px 140px;
+    padding: 10px;
+    border-color: none;
+    border-radius: 10px;
+    width: 100px;
+    box-shadow: -5px 5px 5px rgb(3, 0, 0);
+}
+
+.gameover button {
+    display: block;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: 'Lucida Grande';
+    text-transform: uppercase;
+    margin-left: 9px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    color: rgb(206, 179, 179);
+    background-color: rgb(25, 14, 51);
+    box-shadow: 2px 1px 1px rgb(0, 0, 0);
+}
+
+.gameover .result {
+    margin-left: 40px;
+    color: chocolate;
+}
+
+.gameover .result:hover {
+    cursor: pointer;
+}
+
+.gameover .text {
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: rgb(154, 148, 179);
+
+}
+
+.gameover button:hover {
+    background-color: rgb(25, 14, 51);
+    box-shadow: -2px -2px 1px rgb(0, 0, 0)
+}
+
+
+
+
+
+
+
+h1 {
+    background-color: rgb(23, 92, 151);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    padding-left: 50px;
+    width: 325px;
+}
